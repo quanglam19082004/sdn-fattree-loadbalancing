@@ -1,0 +1,4 @@
+sdn_env/
+__pycache__/
+*.csv
+*.pyc

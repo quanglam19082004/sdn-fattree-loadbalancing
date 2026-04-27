@@ -1,0 +1,17 @@
+💡 Lưu ý cực kỳ quan trọng khi làm việc:
+
+Từ giờ trở đi, mỗi khi bạn mở một Terminal mới để chạy dự án Đom Đóm, bạn phải thực hiện theo quy trình sau:
+
+    Để chạy Ryu:
+
+        Mở Terminal.
+
+        Gõ: source ~/sdn_env/bin/activate (để "nhập hồn" cho Ryu).
+
+        Gõ: ryu-manager lb_controller.py.
+
+    Để chạy Mininet (Fattree):
+
+        Mở một Terminal khác.
+
+        Gõ: sudo python3 fattree.py (Mininet chạy bằng Python hệ thống là 3.12 vẫn ổn, không cần vào môi trường ảo).
